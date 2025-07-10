@@ -6,7 +6,7 @@
                 price: 15600,
                 category: "mains",
                 specialCategory: "intercontinental",
-                image: "/images/Mushroom Risotto.jpeg"
+                image: "images/Mushroom Risotto.jpeg"
             },
             {
                 id: 2,
@@ -15,7 +15,7 @@
                 price: 10200,
                 category: "mains",
                 specialCategory: "intercontinental",
-                image: "/images/Atlantic salmon.jpeg"
+                image: "images/Atlantic salmon.jpeg"
             },
             {
                 id: 3,
@@ -24,7 +24,7 @@
                 price: 2000,
                 category: "appetizers",
                 specialCategory: "intercontinental",
-                image: "/images/Classic Caesar Salad with Crispy.jpeg"
+                image: "images/Classic Caesar Salad with Crispy.jpeg"
             },
             {
                 id: 4,
@@ -33,7 +33,7 @@
                 price: 15000,
                 category: "desserts",
                 specialCategory: "pastry",
-                image: "/images/Warm chocolate cake with molten center, vanilla ice cream.jpeg" 
+                image: "images/Warm chocolate cake with molten center, vanilla ice cream.jpeg" 
             },
             {
                 id: 5,
@@ -42,7 +42,7 @@
                 price: 1200,
                 category: "beverages",
                 specialCategory: "local",
-                image: "/images/Local brewery selection, rotating seasonal flavors.jpeg" 
+                image: "images/Local brewery selection, rotating seasonal flavors.jpeg" 
             },
             {
                 id: 6,
@@ -51,7 +51,7 @@
                 price: 3000,
                 category: "mains",
                 specialCategory: "intercontinental",
-                image: "/images/Beef Wellington.jpeg" 
+                image: "images/Beef Wellington.jpeg" 
             },
             {
                 id: 7,
@@ -60,7 +60,7 @@
                 price: 9000,
                 category: "appetizers",
                 specialCategory: "intercontinental",
-                image: "/images/tomato basil, mushroom, and goat cheese with honey.jpeg" 
+                image: "images/tomato basil, mushroom, and goat cheese with honey.jpeg" 
             },
             {
                 id: 8,
@@ -69,7 +69,7 @@
                 price: 7000,
                 category: "desserts",
                 specialCategory: "pastry",
-                image: "/images/Classic Italian dessert with espresso-soaked ladyfingers and mascarpone.jpeg" 
+                image: "images/Classic Italian dessert with espresso-soaked ladyfingers and mascarpone.jpeg" 
             },
             // New items for special categories
             {
@@ -79,7 +79,7 @@
                 price: 6000,
                 category: "mains",
                 specialCategory: "local",
-                image: "/images/Traditional Nigerian spiced rice with chicken and vegetables.jpeg" 
+                image: "images/Traditional Nigerian spiced rice with chicken and vegetables.jpeg" 
             },
             {
                 id: 10,
@@ -88,7 +88,7 @@
                 price: 5000,
                 category: "mains",
                 specialCategory: "local",
-                image: "/images/Grilled spiced beef skewers with onions and tomatoes, served with yaji.jpeg" 
+                image: "images/Grilled spiced beef skewers with onions and tomatoes, served with yaji.jpeg" 
             },
             {
                 id: 11,
@@ -97,7 +97,7 @@
                 price: 4500,
                 category: "mains",
                 specialCategory: "local",
-                image: "/images/Traditional pounded yam served with rich egusi soup and assorted meat.jpeg" 
+                image: "images/Traditional pounded yam served with rich egusi soup and assorted meat.jpeg" 
             },
             {
                 id: 12,
@@ -106,7 +106,7 @@
                 price: 1900,
                 category: "desserts",
                 specialCategory: "pastry",
-                image: "/images/Buttery French croissant with almond filling and powdered sugar.jpeg" 
+                image: "images/Buttery French croissant with almond filling and powdered sugar.jpeg" 
             },
             {
                 id: 13,
@@ -115,7 +115,7 @@
                 price: 3500,
                 category: "desserts",
                 specialCategory: "pastry",
-                image: "/images/Danish Pastry.jpeg" 
+                image: "images/Danish Pastry.jpeg" 
             },
             {
                 id: 14,
@@ -124,7 +124,7 @@
                 price: 5900,
                 category: "desserts",
                 specialCategory: "pastry",
-                image: "/images/Choux pastry filled with vanilla cream and topped with chocolate glaze.jpeg" 
+                image: "images/Choux pastry filled with vanilla cream and topped with chocolate glaze.jpeg" 
             },
             {
                 id: 15,
@@ -133,7 +133,7 @@
                 price: 1800,
                 category: "desserts",
                 specialCategory: "icecream",
-                image: "/images/Vanilla Ice Cream.jpeg" 
+                image: "images/Vanilla Ice Cream.jpeg" 
             },
             {
                 id: 16,
@@ -142,7 +142,7 @@
                 price: 2200,
                 category: "desserts",
                 specialCategory: "icecream",
-                image: "/images/Chocolate Sundae.jpeg",
+                image: "images/Chocolate Sundae.jpeg",
             },
             {
                 id: 17,
@@ -151,7 +151,7 @@
                 price: 4000,
                 category: "desserts",
                 specialCategory: "icecream",
-                image: "/images/Strawberry Gelato.jpeg" 
+                image: "images/Strawberry Gelato.jpeg" 
             },
             {
                 id: 18,
@@ -160,7 +160,7 @@
                 price: 3500,
                 category: "desserts",
                 specialCategory: "icecream",
-                image: "/images/Mint Chocolate Chip.jpeg" 
+                image: "images/Mint Chocolate Chip.jpeg" 
             },
             {
                 id: 19,
@@ -169,7 +169,7 @@
                 price: 6000,
                 category: "mains",
                 specialCategory: "local",
-                image: "/images/Cow foot or goat foot cooked in a spicy palm oil sauce.jpeg" 
+                image: "images/Cow foot or goat foot cooked in a spicy palm oil sauce.jpeg" 
             },
         ];
 
