@@ -3,7 +3,7 @@
                 id: 1,
                 name: "Truffle Risotto",
                 description: "Creamy Arborio rice with black truffle, parmesan, and wild mushrooms",
-                price: 999.99,
+                price: 15600,
                 category: "mains",
                 specialCategory: "intercontinental",
                 image: "/images/Mushroom Risotto.jpeg"
@@ -12,7 +12,7 @@
                 id: 2,
                 name: "Grilled Salmon",
                 description: "Atlantic salmon with lemon herb butter, seasonal vegetables",
-                price: 32.99,
+                price: 10200,
                 category: "mains",
                 specialCategory: "intercontinental",
                 image: "/images/Atlantic salmon.jpeg"
@@ -21,7 +21,7 @@
                 id: 3,
                 name: "Caesar Salad",
                 description: "Crisp romaine lettuce, parmesan, croutons, classic caesar dressing",
-                price: 16.99,
+                price: 2000,
                 category: "appetizers",
                 specialCategory: "intercontinental",
                 image: "/images/Classic Caesar Salad with Crispy.jpeg"
@@ -30,7 +30,7 @@
                 id: 4,
                 name: "Chocolate Lava Cake",
                 description: "Warm chocolate cake with molten center, vanilla ice cream",
-                price: 12.99,
+                price: 15000,
                 category: "desserts",
                 specialCategory: "pastry",
                 image: "/images/Warm chocolate cake with molten center, vanilla ice cream.jpeg" 
@@ -39,7 +39,7 @@
                 id: 5,
                 name: "Craft Beer",
                 description: "Local brewery selection, rotating seasonal flavors",
-                price: 8.99,
+                price: 1200,
                 category: "beverages",
                 specialCategory: "local",
                 image: "/images/Local brewery selection, rotating seasonal flavors.jpeg" 
@@ -48,7 +48,7 @@
                 id: 6,
                 name: "Beef Wellington",
                 description: "Premium beef tenderloin wrapped in puff pastry with mushroom duxelles",
-                price: 45.99,
+                price: 3000,
                 category: "mains",
                 specialCategory: "intercontinental",
                 image: "/images/Beef Wellington.jpeg" 
@@ -57,7 +57,7 @@
                 id: 7,
                 name: "Bruschetta Trio",
                 description: "Three varieties: tomato basil, mushroom, and goat cheese with honey",
-                price: 14.99,
+                price: 9000,
                 category: "appetizers",
                 specialCategory: "intercontinental",
                 image: "/images/tomato basil, mushroom, and goat cheese with honey.jpeg" 
@@ -66,7 +66,7 @@
                 id: 8,
                 name: "Tiramisu",
                 description: "Classic Italian dessert with espresso-soaked ladyfingers and mascarpone",
-                price: 10.99,
+                price: 7000,
                 category: "desserts",
                 specialCategory: "pastry",
                 image: "/images/Classic Italian dessert with espresso-soaked ladyfingers and mascarpone.jpeg" 
@@ -76,7 +76,7 @@
                 id: 9,
                 name: "Jollof Rice",
                 description: "Traditional Nigerian spiced rice with chicken and vegetables",
-                price: 18.99,
+                price: 6000,
                 category: "mains",
                 specialCategory: "local",
                 image: "/images/Traditional Nigerian spiced rice with chicken and vegetables.jpeg" 
@@ -85,7 +85,7 @@
                 id: 10,
                 name: "Suya Platter",
                 description: "Grilled spiced beef skewers with onions and tomatoes, served with yaji",
-                price: 22.99,
+                price: 5000,
                 category: "mains",
                 specialCategory: "local",
                 image: "/images/Grilled spiced beef skewers with onions and tomatoes, served with yaji.jpeg" 
@@ -94,7 +94,7 @@
                 id: 11,
                 name: "Pounded Yam & Egusi",
                 description: "Traditional pounded yam served with rich egusi soup and assorted meat",
-                price: 25.99,
+                price: 4500,
                 category: "mains",
                 specialCategory: "local",
                 image: "/images/Traditional pounded yam served with rich egusi soup and assorted meat.jpeg" 
@@ -103,7 +103,7 @@
                 id: 12,
                 name: "Croissant Pastry",
                 description: "Buttery French croissant with almond filling and powdered sugar",
-                price: 8.99,
+                price: 1900,
                 category: "desserts",
                 specialCategory: "pastry",
                 image: "/images/Buttery French croissant with almond filling and powdered sugar.jpeg" 
@@ -112,7 +112,7 @@
                 id: 13,
                 name: "Danish Pastry",
                 description: "Flaky pastry with fruit filling and sweet glaze",
-                price: 7.99,
+                price: 3500,
                 category: "desserts",
                 specialCategory: "pastry",
                 image: "/images/Danish Pastry.jpeg" 
@@ -121,7 +121,7 @@
                 id: 14,
                 name: "Éclair",
                 description: "Choux pastry filled with vanilla cream and topped with chocolate glaze",
-                price: 6.99,
+                price: 5900,
                 category: "desserts",
                 specialCategory: "pastry",
                 image: "/images/Choux pastry filled with vanilla cream and topped with chocolate glaze.jpeg" 
@@ -130,7 +130,7 @@
                 id: 15,
                 name: "Vanilla Ice Cream",
                 description: "Premium Madagascar vanilla ice cream served in a waffle cone",
-                price: 5.99,
+                price: 1800,
                 category: "desserts",
                 specialCategory: "icecream",
                 image: "/images/Vanilla Ice Cream.jpeg" 
@@ -139,7 +139,7 @@
                 id: 16,
                 name: "Chocolate Sundae",
                 description: "Rich chocolate ice cream with hot fudge, whipped cream, and cherry",
-                price: 8.99,
+                price: 2200,
                 category: "desserts",
                 specialCategory: "icecream",
                 image: "/images/Chocolate Sundae.jpeg",
@@ -148,7 +148,7 @@
                 id: 17,
                 name: "Strawberry Gelato",
                 description: "Authentic Italian gelato made with fresh strawberries and cream",
-                price: 7.99,
+                price: 4000,
                 category: "desserts",
                 specialCategory: "icecream",
                 image: "/images/Strawberry Gelato.jpeg" 
@@ -157,7 +157,7 @@
                 id: 18,
                 name: "Mint Chocolate Chip",
                 description: "Refreshing mint ice cream with dark chocolate chips",
-                price: 6.99,
+                price: 3500,
                 category: "desserts",
                 specialCategory: "icecream",
                 image: "/images/Mint Chocolate Chip.jpeg" 
@@ -166,7 +166,7 @@
                 id: 19,
                 name: "Nkwobi",
                 description: "Cow foot or goat foot cooked in a spicy palm oil sauce",
-                price: 25.99,
+                price: 6000,
                 category: "mains",
                 specialCategory: "local",
                 image: "/images/Cow foot or goat foot cooked in a spicy palm oil sauce.jpeg" 
