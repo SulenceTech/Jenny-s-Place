@@ -322,7 +322,7 @@
                 cartItemDiv.innerHTML = `
                     <div class="cart-item-info">
                         <div class="cart-item-name">${item.name}</div>
-                        <div class="cart-item-price">$${item.price.toFixed(2)} each</div>
+                        <div class="cart-item-price">₦${item.price.toFixed(2)} each</div>
                     </div>
                     <div class="quantity-controls">
                         <button class="qty-btn" onclick="updateQuantity(${item.id}, -1)">-</button>
