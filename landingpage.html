@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenny's place Restaurant</title>
+    <link rel="stylesheet" href="landingpage.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container"> 
+            <a href="#" class="logo">Jenny's Place</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn nav-link">
+                        Categories
+                        <span class="dropdown-arrow">▼</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-item" onclick="filterBySpecialCategory('intercontinental')">Intercontinental</a>
+                        <a href="#" class="dropdown-item" onclick="filterBySpecialCategory('local')">Local</a>
+                        <a href="#" class="dropdown-item" onclick="filterBySpecialCategory('pastry')">Pastry</a>
+                        <a href="#" class="dropdown-item" onclick="filterBySpecialCategory('icecream')">Ice Cream</a>
+                    </div>
+                </li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="cart-btn" onclick="toggleCart()">
+                🛒 Cart
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Jenny's Place</h1>
+            <p>Experience culinary excellence with every bite</p>
+            <button class="cta-btn" onclick="scrollToMenu()">Order Now</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <h2 class="section-title">Our Menu</h2>
+        
+        <div class="menu-categories">
+            <button class="category-btn active" onclick="filterMenu('all')">All</button>
+            <button class="category-btn" onclick="filterMenu('appetizers')">Appetizers</button>
+            <button class="category-btn" onclick="filterMenu('mains')">Main Courses</button>
+            <button class="category-btn" onclick="filterMenu('desserts')">Desserts</button>
+            <button class="category-btn" onclick="filterMenu('beverages')">Beverages</button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+            <!-- Menu items will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3 class="cart-title">Your Cart</h3>
+                <button class="close-cart" onclick="toggleCart()">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <div class="empty-cart">Your cart is empty</div>
+            </div>
+            <div class="cart-total" id="cartTotal">Total: #0.00</div>
+            <button class="checkout-btn" onclick="checkout()">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>Jenny's Place Restaurant</h3>
+        <p>&copy; 2025 Jenny's Place. All rights reserved.</p>
+        <p>📞 813 854 7652 | 📧 sulqueentech52@gmail.com</p>
+    </footer>
+
+    <script  src="landingpage.js"></script>
+</body>
+</html>
